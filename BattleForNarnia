@@ -1,0 +1,26 @@
+﻿using System;
+
+namespace TextAdventureExercise
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, new recruit! Welcome to Narnia");
+            Console.WriteLine("I understand this is your first time on the Battlefield?");
+
+            string response = Console.ReadLine();
+
+            if (response == "yes")
+            {
+                Console.WriteLine("Not to worry! Let's get you fitted with Armour and a Blade!");
+            }
+
+            if (response == "no")
+            {
+                Console.WriteLine("Ah! A seasoned warrior!");
+            }
+            
+        }
+    }
+}
