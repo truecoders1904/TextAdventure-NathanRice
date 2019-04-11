@@ -10,7 +10,7 @@ namespace BattleForNarnia
 
             Console.WriteLine("What is your name?");
 
-            string name = Console.ReadLine()
+            string name = Console.ReadLine();
 
             Console.WriteLine($"Great to meet you {name}, I understand this is your first time on the Battlefield?");
 
@@ -27,7 +27,7 @@ namespace BattleForNarnia
             
             Console.WriteLine("So, Here we have our Blacksmith, Bandor.");
 
-            Console.WriteLine($"Bandor, this is {name}.);
+            Console.WriteLine($"Bandor, this is {name}.");
 
             Console.WriteLine("Bandor: Lets get you fitted with armour first!");
 
@@ -36,7 +36,7 @@ namespace BattleForNarnia
             Console.WriteLine("we have small, medium, large, and xl");
 
 
-            response = Console.ReadLine();
+            string armour = Console.ReadLine();
 
                 if (response == "small")
 
@@ -68,7 +68,30 @@ namespace BattleForNarnia
 
             Console.WriteLine($"Rabidash: Hello {name}!");
 
-            Console.WriteLine(");
+            Console.WriteLine("Here we have an assortment of different blades, fit for any situation.");
+
+            Console.WriteLine($"Which weapon better fits you fighting style {name}, Axes or Swords?");
+
+
+            response = Console.ReadLine();
+
+            if (response == "swords")
+            {
+                Console.WriteLine($"Great! With your Armour style being {armour}, I believe this sword will fit you best!");
+            }
+
+            else if (response == "axes")
+            {
+                Console.WriteLine($"Great! With your Amour style being {armour}, I believe this axe will best suit you!");
+            }
+
+
+
+
+
+
+
+
 
 
         }
