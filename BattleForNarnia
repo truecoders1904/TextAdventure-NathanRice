@@ -18,8 +18,10 @@ namespace TextAdventureExercise
 
             if (response == "no")
             {
-                Console.WriteLine("Ah! A seasoned warrior!");
+                Console.WriteLine("Ah! A seasoned warrior! Let me show you around!");
             }
+            
+          
             
         }
     }
