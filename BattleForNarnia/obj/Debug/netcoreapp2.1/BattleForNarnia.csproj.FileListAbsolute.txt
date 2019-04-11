@@ -1,0 +1,11 @@
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/obj/Debug/netcoreapp2.1/BattleForNarnia.csprojAssemblyReference.cache
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/obj/Debug/netcoreapp2.1/BattleForNarnia.csproj.CoreCompileInputs.cache
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/obj/Debug/netcoreapp2.1/BattleForNarnia.AssemblyInfoInputs.cache
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/obj/Debug/netcoreapp2.1/BattleForNarnia.AssemblyInfo.cs
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/bin/Debug/netcoreapp2.1/BattleForNarnia.deps.json
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/bin/Debug/netcoreapp2.1/BattleForNarnia.runtimeconfig.json
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/bin/Debug/netcoreapp2.1/BattleForNarnia.runtimeconfig.dev.json
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/bin/Debug/netcoreapp2.1/BattleForNarnia.dll
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/bin/Debug/netcoreapp2.1/BattleForNarnia.pdb
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/obj/Debug/netcoreapp2.1/BattleForNarnia.dll
+/Users/nathansmac/Desktop/TextAdventure/TextAdventure-NathanRice/BattleForNarnia/obj/Debug/netcoreapp2.1/BattleForNarnia.pdb
