@@ -49,17 +49,22 @@ namespace BattleForNarnia
 
                 {
                     Console.WriteLine("Then this is going to be a great fit, built for speed and with more durability!");
+                    Console.WriteLine("Perfect for well built men like yourself.");
+
                 }
 
                 else if (response == "large")
                 {
 
                     Console.WriteLine("Ah, A Tank!! With this armour you'll definitely be able to hold the front line!");
+                    Console.WriteLine("Perfect for Men of our stature!");
+
                 }
 
                 else if (response == "xl")
                 {
                     Console.WriteLine("Great scott!! Your as big as our boulders! This Armour will allow you to be shot from our Catapults, safely of course!");
+                    Console.WriteLine("This is going to be fun!");
                 }
             
             Console.WriteLine("Now that your fitted, lets get you a blade!");
