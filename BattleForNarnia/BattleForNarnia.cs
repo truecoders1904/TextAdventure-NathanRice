@@ -67,7 +67,15 @@ namespace BattleForNarnia
                     Console.WriteLine("This is going to be fun!");
                 }
             
-            Console.WriteLine("Now that your fitted, lets get you a blade!");
+            Console.WriteLine("Now that your fitted, are you ready to choose your blade?");
+
+            response = Console.ReadLine();
+
+            if (response == "yes")
+            {
+                Console.WriteLine($"Great! );
+            }
+
 
             Console.WriteLine($"{name}, this is is Rabidash, finest Bladesmith in all the land!");
 
