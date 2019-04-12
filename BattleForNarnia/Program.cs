@@ -40,24 +40,24 @@ namespace BattleForNarnia
 
             string armour = Console.ReadLine();
 
-            if (response == "small")
+            if (armour == "small")
             {
                 Console.WriteLine("Splendid! This Armour will help you stay mobile and stealthy!");
                 Console.WriteLine("Perfect for small lads like yourself.");
             }
-            else if (response == "medium")
+            else if (armour == "medium")
             {
                 Console.WriteLine("Then this is going to be a great fit, built for speed and with more durability!");
                 Console.WriteLine("Perfect for well built men like yourself.");
             }
-            else if (response == "large")
+            else if (armour == "large")
             {
 
                 Console.WriteLine("Ah, A Tank!! With this armour you'll definitely be able to hold the front line!");
                 Console.WriteLine("Perfect for Men of our stature!");
 
             }
-            else if (response == "xl")
+            else if (armour == "xl")
             {
                 Console.WriteLine("Great scott!! Your as big as our boulders! This Armour will allow you to be shot from our Catapults, safely of course!");
                 Console.WriteLine("This is going to be fun!");
