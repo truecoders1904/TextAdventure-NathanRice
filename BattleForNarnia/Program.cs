@@ -27,9 +27,11 @@ namespace BattleForNarnia
 
             Console.WriteLine("So, Here we have our Blacksmith, Bandor.");
 
-            Console.WriteLine($"Bandor, this is {name}.");
+            Console.WriteLine($"Bandor, this is {name}. Say Hello {name}!");
 
-            Console.WriteLine("Bandor: Lets get you fitted with armour first!");
+            Console.ReadLine();
+
+            Console.WriteLine("Bandor: Lets get you fitted with armour!");
 
             Console.WriteLine("What is your size?");
 
@@ -39,20 +41,15 @@ namespace BattleForNarnia
             string armour = Console.ReadLine();
 
             if (response == "small")
-
             {
                 Console.WriteLine("Splendid! This Armour will help you stay mobile and stealthy!");
                 Console.WriteLine("Perfect for small lads like yourself.");
             }
-
             else if (response == "medium")
-
             {
                 Console.WriteLine("Then this is going to be a great fit, built for speed and with more durability!");
                 Console.WriteLine("Perfect for well built men like yourself.");
-
             }
-
             else if (response == "large")
             {
 
@@ -60,18 +57,41 @@ namespace BattleForNarnia
                 Console.WriteLine("Perfect for Men of our stature!");
 
             }
-
             else if (response == "xl")
             {
                 Console.WriteLine("Great scott!! Your as big as our boulders! This Armour will allow you to be shot from our Catapults, safely of course!");
                 Console.WriteLine("This is going to be fun!");
             }
 
-            Console.WriteLine("Now that your fitted, lets get you a blade!");
+            Console.WriteLine("Now that your fitted, Would you like to go see about getting a blade?");
+
+            response = Console.ReadLine();
+
+            if (response == "yes")
+            {
+                Console.WriteLine("Great Let's Go!");
+            }
+            else if (response == "no")
+            {
+                Console.WriteLine("Too bad! Let's go!");
+            }
 
             Console.WriteLine($"{name}, this is is Rabidash, finest Bladesmith in all the land!");
 
-            Console.WriteLine($"Rabidash: Hello {name}!");
+            Console.WriteLine($"{name}, Say hello!");
+
+            response = Console.ReadLine();
+
+            if (response == "hello")
+            {
+                Console.WriteLine($"Rabidash: Hello {name}!");
+            }
+            else
+            {
+                Console.WriteLine("That was rude.... anyways moving on");
+            }
+
+
 
             Console.WriteLine("Here we have an assortment of different blades, fit for any situation.");
 
