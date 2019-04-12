@@ -8,6 +8,10 @@ namespace BattleForNarnia
         {
             Console.WriteLine("Hello, new recruit! Welcome to Narnia! My Name is Reepicheep!");
 
+            System.Threading.Thread.Sleep(3000);
+            Console.Clear();
+            System.Threading.Thread.Sleep(1000);
+
             Console.WriteLine("What is your name?");
 
             string name = Console.ReadLine();
@@ -24,12 +28,18 @@ namespace BattleForNarnia
             {
                 Console.WriteLine("Ah! A seasoned warrior! Let me show you around!");
             }
+            System.Threading.Thread.Sleep(1000);
 
             Console.WriteLine("So, Here we have our Blacksmith, Bandor.");
 
+            System.Threading.Thread.Sleep(1000);
+
             Console.WriteLine($"Bandor, this is {name}. Say Hello {name}!");
 
+
             Console.ReadLine();
+
+            System.Threading.Thread.Sleep(1000);
 
             Console.WriteLine("Bandor: Lets get you fitted with armour!");
 
@@ -63,6 +73,8 @@ namespace BattleForNarnia
                 Console.WriteLine("This is going to be fun!");
             }
 
+            System.Threading.Thread.Sleep(1000);
+
             Console.WriteLine("Now that your fitted, Would you like to go see about getting a blade?");
 
             response = Console.ReadLine();
@@ -94,6 +106,8 @@ namespace BattleForNarnia
 
 
             Console.WriteLine("Here we have an assortment of different blades, fit for any situation.");
+
+            System.Threading.Thread.Sleep(1000);
 
             Console.WriteLine($"Which weapon better fits you fighting style {name}, Axes or Swords?");
 
