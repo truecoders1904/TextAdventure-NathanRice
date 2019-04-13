@@ -123,6 +123,23 @@ namespace BattleForNarnia
             {
                 Console.WriteLine($"Great! With your Amour style being {armour}, I believe this axe will best suit you!");
             }
+            System.Threading.Thread.Sleep(3000);
+            Console.Clear();
+            System.Threading.Thread.Sleep(1000);
+
+
+            Console.WriteLine("Well.. It's that time new blood.. lets get to the front lines");
+            System.Threading.Thread.Sleep(2500);
+            Console.Clear();
+            System.Threading.Thread.Sleep(500);
+
+            Console.WriteLine("..You are now at the front line...");
+            System.Threading.Thread.Sleep(2000);
+
+
+            Console.WriteLine("This is where i leave you, Aslan is about to speak..Goodluck.");
+            System.Threading.Thread.Sleep(3000);
+
         }
     }
 }
